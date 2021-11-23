@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MY PAGE</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="user more">
+                <div class="img"><img src="IMG_20200926_190718.jpg"></div>
+                <div class="text">
+                <h2>Monisha Prasad</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam repudiandae aperiam 
+               exercitationem itaque rerum eligendi dolore molestiae. Fugiat esse eligendi animi alias
+               mollitia accusantium beatae cum consequatur itaque facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Odit corrupti labore illo, maxime dolores aperiam?</p>
+                <button>follow</button>
+                <p class="seemore"><a href="#" onclick="toggleForm();">SEE MORE</a></p>
+                </div>
+    </div>
+    <div class="user less">
+            <div class="img"><img src="IMG_20200926_190718.jpg"></div>
+            <div class="text">
+                <h2>Monisha Prasad</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aspernatur nesciunt minus optio nihil officiis aliquam odio assumenda! Eligendi harum repellendus deleniti. Voluptatibus quos tempore architecto eius. Voluptatibus odit quas magnam ab aut molestias repudiandae unde eos, vitae, dolorem dolores ex natus fugit voluptates. Impedit veniam aliquid, neque quae minus, voluptates quasi, quis nisi cupiditate eveniet excepturi similique natus corrupti repellendus odit expedita aliquam aperiam ratione id fuga. Fugiat distinctio id qui placeat. Fugit laborum quod veniam! Commodi, dolorem laboriosam!</button>
+                <p class="seemore"><a href="#" onclick="toggleForm();">SEE LESS</a></p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script type="text/javascript">
+        function toggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
